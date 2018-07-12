@@ -272,11 +272,11 @@ bool MyGuiApp::OnInit()
 	//delete ActionsBookIconImages;
 	//delete AssetsBookIconImages;
 	//delete SettingsBookIconImages;
-	if(argc == 2)
+	if(argc == 4)
 	{
-	    if(wxDirExists(argv[1]))
+	    if(wxDirExists(argv[2]))
 	    {
-		wxString project_path = wxString::Format("%s", argv[1]);
+		wxString project_path = wxString::Format("%s", argv[2]);
                 if (project_path.EndsWith("/") == false) project_path += "/";
 		wxString db_file = project_path + "*.db";
 
@@ -289,54 +289,43 @@ bool MyGuiApp::OnInit()
 	            main_frame->OpenProject(files);
 		    return true;
 		}
-		else{
-		    wxPrintf("no db file in %s\n", project_path);
-		    return false;
+		else
+		{
+		    wxString db_full_path = wxString::Format("%s", argv[2]);
+		    wxString project_name = wxString::Format("%s", argv[3]);
+		    wxPrintf("Will start with a new project in %s, projcet name:%s\n", db_full_path, project_name);
+		
+                    if (db_full_path.EndsWith("/") == false) db_full_path += "/";
+		    wxString db_name = project_name + ".db";
+
+		    wxPrintf("db full path is:%s\n", db_full_path);
+		    
+		    wxFileName current_dirname = wxFileName::DirName(db_full_path);
+		    if (current_dirname.Exists())
+		    {
+		        wxPrintf("Project existed already. please check!\n");
+		        return false;
+		    }
+		    else current_dirname.Mkdir();
+		
+		    main_frame->Show();
+		    main_frame->current_project.CreateNewProject(db_full_path+"/"+db_name, db_full_path, project_name);
+	            main_frame->StartNewProject(true);
+		
+		    wxCommandEvent evt = wxCommandEvent( wxEVT_COMMAND_BUTTON_CLICKED, 12);
+		    evt.SetEventObject(this);
+		    wxString extra = wxString::Format("%s", argv[1]);
+		    evt.SetString(extra);
+		    movie_asset_panel->ImportAssetClick(evt);
+		    return true;
 		}
 	    }else{
-		wxPrintf("params must directory!param:%s", argv[1]);
+    	    	wxPrintf("invalid params! must have 3 params\n 1: data of directory;\n 2: path of project;\n 3: new project name.\n");
 		return false;
 	    }
 	}
-	
-	else if(argc == 4)
-	{
-	    if(wxDirExists(argv[2]))
-	    {
-		wxString project_path = wxString::Format("%s", argv[2]);
-		wxString project_name = wxString::Format("%s", argv[3]);
-		
-                if (project_path.EndsWith("/") == false) project_path += "/";
-		wxString db_full_path = project_path + project_name;
-		wxString db_name = project_name + ".db";
-
-		wxPrintf("db full path is:%s\n", db_full_path);
-		wxFileName current_dirname = wxFileName::DirName(db_full_path);
-		if (current_dirname.Exists())
-		{
-		    wxPrintf("Project existed already. please check!\n");
-		    return false;
-		}
-		else current_dirname.Mkdir();
-		
-		wxPrintf("Will start with a new project in %s, projcet name:%s\n", db_full_path, project_name);
-		main_frame->Show();
-		main_frame->current_project.CreateNewProject(db_full_path+"/"+db_name, db_full_path, project_name);
-	        main_frame->StartNewProject(true);
-		
-		wxCommandEvent evt = wxCommandEvent( wxEVT_COMMAND_BUTTON_CLICKED, 12);
-		evt.SetEventObject(this);
-		wxString extra = wxString::Format("%s", argv[1]);
-		evt.SetString(extra);
-		movie_asset_panel->ImportAssetClick(evt);
-		return true;
-            }else{
-    	        wxPrintf("invalid params! must have 3 params\n 1: data of directory;\n 2: path of new project;\n 3: new project name.\n");
-	        return false;
-	    }
-	}
 	else{
-    	    wxPrintf("invalid params! must have 3 params\n 1: data of directory;\n 2: path of new project;\n 3: new project name.\n");
+    	    wxPrintf("invalid params! must have 3 params\n 1: data of directory;\n 2: path of project;\n 3: new project name.\n");
 	    return false;
 	}
 }
