@@ -1,17 +1,13 @@
 gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
- /usr/local/include/wx-3.0/wx/window.h \
- /usr/local/include/wx-3.0/wx/event.h /usr/local/include/wx-3.0/wx/defs.h \
- /usr/local/include/wx-3.0/wx/platform.h \
- /usr/local/include/wx-3.0/wx/compiler.h \
- /usr/local/lib/wx/include/gtk2-unicode-static-3.0/wx/setup.h \
- /usr/local/include/wx-3.0/wx/chkconf.h \
- /usr/local/include/wx-3.0/wx/gtk/chkconf.h \
- /usr/local/include/wx-3.0/wx/unix/chkconf.h \
- /usr/local/include/wx-3.0/wx/version.h \
- /usr/local/include/wx-3.0/wx/cpp.h \
- /usr/local/include/wx-3.0/wx/dlimpexp.h \
+ /usr/include/wx-3.0/wx/window.h /usr/include/wx-3.0/wx/event.h \
+ /usr/include/wx-3.0/wx/defs.h /usr/include/wx-3.0/wx/platform.h \
+ /usr/include/wx-3.0/wx/compiler.h \
+ /usr/lib/wx/include/gtk2-unicode-3.0/wx/setup.h \
+ /usr/include/wx-3.0/wx/chkconf.h /usr/include/wx-3.0/wx/gtk/chkconf.h \
+ /usr/include/wx-3.0/wx/unix/chkconf.h /usr/include/wx-3.0/wx/version.h \
+ /usr/include/wx-3.0/wx/cpp.h /usr/include/wx-3.0/wx/dlimpexp.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/stddef.h \
- /usr/local/include/wx-3.0/wx/debug.h /usr/include/assert.h \
+ /usr/include/wx-3.0/wx/debug.h /usr/include/assert.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
  /usr/include/gnu/stubs-64.h \
@@ -20,7 +16,7 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/stdio_lim.h /usr/local/include/wx-3.0/wx/chartype.h \
+ /usr/include/bits/stdio_lim.h /usr/include/wx-3.0/wx/chartype.h \
  /usr/include/wchar.h /usr/include/stdio.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/stdarg.h \
  /usr/include/bits/wchar.h /usr/include/xlocale.h \
@@ -30,12 +26,10 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
  /usr/include/bits/byteswap-16.h /usr/include/sys/select.h \
  /usr/include/bits/select.h /usr/include/bits/sigset.h \
  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
- /usr/include/bits/pthreadtypes.h /usr/local/include/wx-3.0/wx/windowid.h \
- /usr/local/include/wx-3.0/wx/features.h \
- /usr/local/include/wx-3.0/wx/object.h \
- /usr/local/include/wx-3.0/wx/memory.h \
- /usr/local/include/wx-3.0/wx/string.h /usr/include/string.h \
- /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/wx-3.0/wx/windowid.h \
+ /usr/include/wx-3.0/wx/features.h /usr/include/wx-3.0/wx/object.h \
+ /usr/include/wx-3.0/wx/memory.h /usr/include/wx-3.0/wx/string.h \
+ /usr/include/string.h /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/stdlib.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/cstdlib \
@@ -46,15 +40,12 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
  /usr/include/bits/waitstatus.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/std_abs.h \
- /usr/local/include/wx-3.0/wx/wxcrtbase.h /usr/include/ctype.h \
+ /usr/include/wx-3.0/wx/wxcrtbase.h /usr/include/ctype.h \
  /usr/include/wctype.h /usr/include/bits/timex.h \
- /usr/local/include/wx-3.0/wx/strvararg.h \
- /usr/local/include/wx-3.0/wx/strconv.h \
- /usr/local/include/wx-3.0/wx/buffer.h \
- /usr/local/include/wx-3.0/wx/fontenc.h \
- /usr/local/include/wx-3.0/wx/unichar.h \
- /usr/local/include/wx-3.0/wx/stringimpl.h \
- /usr/local/include/wx-3.0/wx/beforestd.h \
+ /usr/include/wx-3.0/wx/strvararg.h /usr/include/wx-3.0/wx/strconv.h \
+ /usr/include/wx-3.0/wx/buffer.h /usr/include/wx-3.0/wx/fontenc.h \
+ /usr/include/wx-3.0/wx/unichar.h /usr/include/wx-3.0/wx/stringimpl.h \
+ /usr/include/wx-3.0/wx/beforestd.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/string \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/stringfwd.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/memoryfwd.h \
@@ -121,37 +112,27 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/functional_hash.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/basic_string.tcc \
- /usr/local/include/wx-3.0/wx/afterstd.h \
- /usr/local/include/wx-3.0/wx/stringops.h \
- /usr/local/include/wx-3.0/wx/iosfwrap.h \
- /usr/local/include/wx-3.0/wx/crt.h /usr/local/include/wx-3.0/wx/wxcrt.h \
- /usr/local/include/wx-3.0/wx/wxcrtvararg.h \
- /usr/local/include/wx-3.0/wx/msgout.h /usr/local/include/wx-3.0/wx/xti.h \
- /usr/local/include/wx-3.0/wx/rtti.h /usr/local/include/wx-3.0/wx/flags.h \
- /usr/local/include/wx-3.0/wx/xti2.h \
- /usr/local/include/wx-3.0/wx/clntdata.h \
- /usr/local/include/wx-3.0/wx/hashmap.h \
- /usr/local/include/wx-3.0/wx/gdicmn.h \
- /usr/local/include/wx-3.0/wx/list.h \
- /usr/local/include/wx-3.0/wx/vector.h \
- /usr/local/include/wx-3.0/wx/scopeguard.h \
- /usr/local/include/wx-3.0/wx/except.h \
- /usr/local/include/wx-3.0/wx/meta/movable.h \
- /usr/local/include/wx-3.0/wx/meta/pod.h \
- /usr/local/include/wx-3.0/wx/meta/if.h \
- /usr/local/include/wx-3.0/wx/math.h \
+ /usr/include/wx-3.0/wx/afterstd.h /usr/include/wx-3.0/wx/stringops.h \
+ /usr/include/wx-3.0/wx/iosfwrap.h /usr/include/wx-3.0/wx/crt.h \
+ /usr/include/wx-3.0/wx/wxcrt.h /usr/include/wx-3.0/wx/wxcrtvararg.h \
+ /usr/include/wx-3.0/wx/msgout.h /usr/include/wx-3.0/wx/xti.h \
+ /usr/include/wx-3.0/wx/rtti.h /usr/include/wx-3.0/wx/flags.h \
+ /usr/include/wx-3.0/wx/xti2.h /usr/include/wx-3.0/wx/clntdata.h \
+ /usr/include/wx-3.0/wx/hashmap.h /usr/include/wx-3.0/wx/gdicmn.h \
+ /usr/include/wx-3.0/wx/list.h /usr/include/wx-3.0/wx/vector.h \
+ /usr/include/wx-3.0/wx/scopeguard.h /usr/include/wx-3.0/wx/except.h \
+ /usr/include/wx-3.0/wx/meta/movable.h /usr/include/wx-3.0/wx/meta/pod.h \
+ /usr/include/wx-3.0/wx/meta/if.h /usr/include/wx-3.0/wx/math.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/math.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/cmath \
  /usr/include/math.h /usr/include/bits/huge_val.h \
  /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
  /usr/include/bits/inf.h /usr/include/bits/nan.h \
  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
- /usr/include/bits/mathinline.h /usr/local/include/wx-3.0/wx/cursor.h \
- /usr/local/include/wx-3.0/wx/gtk/cursor.h \
- /usr/local/include/wx-3.0/wx/gdiobj.h \
- /usr/local/include/wx-3.0/wx/utils.h \
- /usr/local/include/wx-3.0/wx/filefn.h \
- /usr/local/include/wx-3.0/wx/arrstr.h \
+ /usr/include/bits/mathinline.h /usr/include/wx-3.0/wx/cursor.h \
+ /usr/include/wx-3.0/wx/gtk/cursor.h /usr/include/wx-3.0/wx/gdiobj.h \
+ /usr/include/wx-3.0/wx/utils.h /usr/include/wx-3.0/wx/filefn.h \
+ /usr/include/wx-3.0/wx/arrstr.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/iterator \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/ostream \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/ios \
@@ -180,156 +161,114 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
  /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/dirent.h \
  /usr/include/bits/dirent.h /usr/include/fcntl.h \
  /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
- /usr/include/bits/uio.h /usr/local/include/wx-3.0/wx/versioninfo.h \
- /usr/local/include/wx-3.0/wx/meta/implicitconversion.h \
- /usr/local/include/wx-3.0/wx/mousestate.h \
- /usr/local/include/wx-3.0/wx/kbdstate.h \
- /usr/local/include/wx-3.0/wx/longlong.h \
+ /usr/include/bits/uio.h /usr/include/wx-3.0/wx/versioninfo.h \
+ /usr/include/wx-3.0/wx/meta/implicitconversion.h \
+ /usr/include/wx-3.0/wx/mousestate.h /usr/include/wx-3.0/wx/kbdstate.h \
+ /usr/include/wx-3.0/wx/longlong.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/limits \
- /usr/local/include/wx-3.0/wx/platinfo.h \
- /usr/local/include/wx-3.0/wx/dynarray.h \
- /usr/local/include/wx-3.0/wx/thread.h \
- /usr/local/include/wx-3.0/wx/tracker.h \
- /usr/local/include/wx-3.0/wx/typeinfo.h \
- /usr/local/include/wx-3.0/wx/any.h \
- /usr/local/include/wx-3.0/wx/datetime.h \
- /usr/local/include/wx-3.0/wx/anystr.h \
- /usr/local/include/wx-3.0/wx/variant.h \
- /usr/local/include/wx-3.0/wx/meta/convertible.h \
- /usr/local/include/wx-3.0/wx/meta/removeref.h \
- /usr/local/include/wx-3.0/wx/font.h \
- /usr/local/include/wx-3.0/wx/gtk/font.h \
- /usr/local/include/wx-3.0/wx/colour.h \
- /usr/local/include/wx-3.0/wx/gtk/colour.h \
- /usr/local/include/wx-3.0/wx/region.h \
- /usr/local/include/wx-3.0/wx/gtk/region.h \
- /usr/local/include/wx-3.0/wx/intl.h \
- /usr/local/include/wx-3.0/wx/translation.h \
- /usr/local/include/wx-3.0/wx/language.h \
- /usr/local/include/wx-3.0/wx/scopedptr.h \
- /usr/local/include/wx-3.0/wx/checkeddelete.h \
- /usr/local/include/wx-3.0/wx/validate.h \
- /usr/local/include/wx-3.0/wx/palette.h \
- /usr/local/include/wx-3.0/wx/generic/paletteg.h \
- /usr/local/include/wx-3.0/wx/accel.h \
- /usr/local/include/wx-3.0/wx/gtk/accel.h \
- /usr/local/include/wx-3.0/wx/generic/accel.h \
- /usr/local/include/wx-3.0/wx/gtk/window.h \
- /usr/local/include/wx-3.0/wx/tokenzr.h \
- /usr/local/include/wx-3.0/wx/settings.h \
- /usr/local/include/wx-3.0/wx/sizer.h /usr/local/include/wx-3.0/wx/log.h \
- /usr/local/include/wx-3.0/wx/generic/logg.h \
- /usr/local/include/wx-3.0/wx/dcclient.h \
- /usr/local/include/wx-3.0/wx/dc.h /usr/local/include/wx-3.0/wx/bitmap.h \
- /usr/local/include/wx-3.0/wx/image.h \
- /usr/local/include/wx-3.0/wx/stream.h \
- /usr/local/include/wx-3.0/wx/imagbmp.h \
- /usr/local/include/wx-3.0/wx/imagpng.h \
- /usr/local/include/wx-3.0/wx/imaggif.h \
- /usr/local/include/wx-3.0/wx/imagpcx.h \
- /usr/local/include/wx-3.0/wx/imagjpeg.h \
- /usr/local/include/wx-3.0/wx/imagtga.h \
- /usr/local/include/wx-3.0/wx/imagtiff.h \
- /usr/local/include/wx-3.0/wx/imagpnm.h \
- /usr/local/include/wx-3.0/wx/imagxpm.h \
- /usr/local/include/wx-3.0/wx/imagiff.h \
- /usr/local/include/wx-3.0/wx/gtk/bitmap.h \
- /usr/local/include/wx-3.0/wx/brush.h \
- /usr/local/include/wx-3.0/wx/gtk/brush.h \
- /usr/local/include/wx-3.0/wx/pen.h \
- /usr/local/include/wx-3.0/wx/gtk/pen.h \
- /usr/local/include/wx-3.0/wx/affinematrix2d.h \
- /usr/local/include/wx-3.0/wx/affinematrix2dbase.h \
- /usr/local/include/wx-3.0/wx/geometry.h gui/mathplot.h \
+ /usr/include/wx-3.0/wx/platinfo.h /usr/include/wx-3.0/wx/dynarray.h \
+ /usr/include/wx-3.0/wx/thread.h /usr/include/wx-3.0/wx/tracker.h \
+ /usr/include/wx-3.0/wx/typeinfo.h /usr/include/wx-3.0/wx/any.h \
+ /usr/include/wx-3.0/wx/datetime.h /usr/include/wx-3.0/wx/anystr.h \
+ /usr/include/wx-3.0/wx/variant.h \
+ /usr/include/wx-3.0/wx/meta/convertible.h \
+ /usr/include/wx-3.0/wx/meta/removeref.h /usr/include/wx-3.0/wx/font.h \
+ /usr/include/wx-3.0/wx/gtk/font.h /usr/include/wx-3.0/wx/colour.h \
+ /usr/include/wx-3.0/wx/gtk/colour.h /usr/include/wx-3.0/wx/region.h \
+ /usr/include/wx-3.0/wx/gtk/region.h /usr/include/wx-3.0/wx/intl.h \
+ /usr/include/wx-3.0/wx/translation.h /usr/include/wx-3.0/wx/language.h \
+ /usr/include/wx-3.0/wx/scopedptr.h \
+ /usr/include/wx-3.0/wx/checkeddelete.h /usr/include/wx-3.0/wx/validate.h \
+ /usr/include/wx-3.0/wx/palette.h \
+ /usr/include/wx-3.0/wx/generic/paletteg.h /usr/include/wx-3.0/wx/accel.h \
+ /usr/include/wx-3.0/wx/gtk/accel.h \
+ /usr/include/wx-3.0/wx/generic/accel.h \
+ /usr/include/wx-3.0/wx/gtk/window.h /usr/include/wx-3.0/wx/tokenzr.h \
+ /usr/include/wx-3.0/wx/settings.h /usr/include/wx-3.0/wx/sizer.h \
+ /usr/include/wx-3.0/wx/log.h /usr/include/wx-3.0/wx/generic/logg.h \
+ /usr/include/wx-3.0/wx/dcclient.h /usr/include/wx-3.0/wx/dc.h \
+ /usr/include/wx-3.0/wx/bitmap.h /usr/include/wx-3.0/wx/image.h \
+ /usr/include/wx-3.0/wx/stream.h /usr/include/wx-3.0/wx/imagbmp.h \
+ /usr/include/wx-3.0/wx/imagpng.h /usr/include/wx-3.0/wx/imaggif.h \
+ /usr/include/wx-3.0/wx/imagpcx.h /usr/include/wx-3.0/wx/imagjpeg.h \
+ /usr/include/wx-3.0/wx/imagtga.h /usr/include/wx-3.0/wx/imagtiff.h \
+ /usr/include/wx-3.0/wx/imagpnm.h /usr/include/wx-3.0/wx/imagxpm.h \
+ /usr/include/wx-3.0/wx/imagiff.h /usr/include/wx-3.0/wx/gtk/bitmap.h \
+ /usr/include/wx-3.0/wx/brush.h /usr/include/wx-3.0/wx/gtk/brush.h \
+ /usr/include/wx-3.0/wx/pen.h /usr/include/wx-3.0/wx/gtk/pen.h \
+ /usr/include/wx-3.0/wx/affinematrix2d.h \
+ /usr/include/wx-3.0/wx/affinematrix2dbase.h \
+ /usr/include/wx-3.0/wx/geometry.h gui/mathplot.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/vector \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/stl_construct.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/stl_uninitialized.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/stl_vector.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/stl_bvector.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/vector.tcc \
- /usr/local/include/wx-3.0/wx/menu.h \
- /usr/local/include/wx-3.0/wx/menuitem.h \
- /usr/local/include/wx-3.0/wx/gtk/menuitem.h \
- /usr/local/include/wx-3.0/wx/gtk/menu.h \
- /usr/local/include/wx-3.0/wx/scrolwin.h \
- /usr/local/include/wx-3.0/wx/panel.h \
- /usr/local/include/wx-3.0/wx/containr.h \
- /usr/local/include/wx-3.0/wx/generic/panelg.h \
- /usr/local/include/wx-3.0/wx/gtk/scrolwin.h \
- /usr/local/include/wx-3.0/wx/dcmemory.h \
- /usr/local/include/wx-3.0/wx/print.h \
- /usr/local/include/wx-3.0/wx/generic/printps.h \
- /usr/local/include/wx-3.0/wx/prntbase.h \
- /usr/local/include/wx-3.0/wx/cmndata.h \
- /usr/local/include/wx-3.0/wx/dialog.h \
- /usr/local/include/wx-3.0/wx/toplevel.h \
- /usr/local/include/wx-3.0/wx/nonownedwnd.h \
- /usr/local/include/wx-3.0/wx/gtk/nonownedwnd.h \
- /usr/local/include/wx-3.0/wx/iconbndl.h \
- /usr/local/include/wx-3.0/wx/icon.h \
- /usr/local/include/wx-3.0/wx/iconloc.h \
- /usr/local/include/wx-3.0/wx/generic/icon.h \
- /usr/local/include/wx-3.0/wx/weakref.h \
- /usr/local/include/wx-3.0/wx/meta/int2type.h \
- /usr/local/include/wx-3.0/wx/gtk/toplevel.h \
- /usr/local/include/wx-3.0/wx/sharedptr.h \
- /usr/local/include/wx-3.0/wx/atomic.h \
- /usr/local/include/wx-3.0/wx/gtk/dialog.h \
- /usr/local/include/wx-3.0/wx/frame.h \
- /usr/local/include/wx-3.0/wx/statusbr.h \
- /usr/local/include/wx-3.0/wx/control.h \
- /usr/local/include/wx-3.0/wx/gtk/control.h \
- /usr/local/include/wx-3.0/wx/generic/statusbr.h \
- /usr/local/include/wx-3.0/wx/gtk/frame.h \
+ /usr/include/wx-3.0/wx/menu.h /usr/include/wx-3.0/wx/menuitem.h \
+ /usr/include/wx-3.0/wx/gtk/menuitem.h /usr/include/wx-3.0/wx/gtk/menu.h \
+ /usr/include/wx-3.0/wx/scrolwin.h /usr/include/wx-3.0/wx/panel.h \
+ /usr/include/wx-3.0/wx/containr.h \
+ /usr/include/wx-3.0/wx/generic/panelg.h \
+ /usr/include/wx-3.0/wx/gtk/scrolwin.h /usr/include/wx-3.0/wx/dcmemory.h \
+ /usr/include/wx-3.0/wx/print.h /usr/include/wx-3.0/wx/generic/printps.h \
+ /usr/include/wx-3.0/wx/prntbase.h /usr/include/wx-3.0/wx/cmndata.h \
+ /usr/include/wx-3.0/wx/dialog.h /usr/include/wx-3.0/wx/toplevel.h \
+ /usr/include/wx-3.0/wx/nonownedwnd.h \
+ /usr/include/wx-3.0/wx/gtk/nonownedwnd.h \
+ /usr/include/wx-3.0/wx/iconbndl.h /usr/include/wx-3.0/wx/icon.h \
+ /usr/include/wx-3.0/wx/iconloc.h /usr/include/wx-3.0/wx/generic/icon.h \
+ /usr/include/wx-3.0/wx/weakref.h /usr/include/wx-3.0/wx/meta/int2type.h \
+ /usr/include/wx-3.0/wx/gtk/toplevel.h /usr/include/wx-3.0/wx/sharedptr.h \
+ /usr/include/wx-3.0/wx/atomic.h /usr/include/wx-3.0/wx/gtk/dialog.h \
+ /usr/include/wx-3.0/wx/frame.h /usr/include/wx-3.0/wx/statusbr.h \
+ /usr/include/wx-3.0/wx/control.h /usr/include/wx-3.0/wx/gtk/control.h \
+ /usr/include/wx-3.0/wx/generic/statusbr.h \
+ /usr/include/wx-3.0/wx/gtk/frame.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/deque \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/stl_deque.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/deque.tcc \
- /usr/local/include/wx-3.0/wx/bmpbuttn.h \
- /usr/local/include/wx-3.0/wx/button.h \
- /usr/local/include/wx-3.0/wx/anybutton.h \
- /usr/local/include/wx-3.0/wx/gtk/anybutton.h \
- /usr/local/include/wx-3.0/wx/gtk/button.h \
- /usr/local/include/wx-3.0/wx/gtk/bmpbuttn.h \
- /usr/local/include/wx-3.0/wx/module.h \
- /usr/local/include/wx-3.0/wx/msgdlg.h \
- /usr/local/include/wx-3.0/wx/stockitem.h \
- /usr/local/include/wx-3.0/wx/generic/msgdlgg.h \
- /usr/local/include/wx-3.0/wx/gtk/msgdlg.h \
- /usr/local/include/wx-3.0/wx/tipwin.h \
- /usr/local/include/wx-3.0/wx/popupwin.h \
- /usr/local/include/wx-3.0/wx/gtk/popupwin.h \
- /usr/local/include/wx-3.0/wx/graphics.h \
+ /usr/include/wx-3.0/wx/bmpbuttn.h /usr/include/wx-3.0/wx/button.h \
+ /usr/include/wx-3.0/wx/anybutton.h \
+ /usr/include/wx-3.0/wx/gtk/anybutton.h \
+ /usr/include/wx-3.0/wx/gtk/button.h \
+ /usr/include/wx-3.0/wx/gtk/bmpbuttn.h /usr/include/wx-3.0/wx/module.h \
+ /usr/include/wx-3.0/wx/msgdlg.h /usr/include/wx-3.0/wx/stockitem.h \
+ /usr/include/wx-3.0/wx/generic/msgdlgg.h \
+ /usr/include/wx-3.0/wx/gtk/msgdlg.h /usr/include/wx-3.0/wx/tipwin.h \
+ /usr/include/wx-3.0/wx/popupwin.h /usr/include/wx-3.0/wx/gtk/popupwin.h \
+ /usr/include/wx-3.0/wx/graphics.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/ctime
 
 /usr/include/stdc-predef.h:
 
-/usr/local/include/wx-3.0/wx/window.h:
+/usr/include/wx-3.0/wx/window.h:
 
-/usr/local/include/wx-3.0/wx/event.h:
+/usr/include/wx-3.0/wx/event.h:
 
-/usr/local/include/wx-3.0/wx/defs.h:
+/usr/include/wx-3.0/wx/defs.h:
 
-/usr/local/include/wx-3.0/wx/platform.h:
+/usr/include/wx-3.0/wx/platform.h:
 
-/usr/local/include/wx-3.0/wx/compiler.h:
+/usr/include/wx-3.0/wx/compiler.h:
 
-/usr/local/lib/wx/include/gtk2-unicode-static-3.0/wx/setup.h:
+/usr/lib/wx/include/gtk2-unicode-3.0/wx/setup.h:
 
-/usr/local/include/wx-3.0/wx/chkconf.h:
+/usr/include/wx-3.0/wx/chkconf.h:
 
-/usr/local/include/wx-3.0/wx/gtk/chkconf.h:
+/usr/include/wx-3.0/wx/gtk/chkconf.h:
 
-/usr/local/include/wx-3.0/wx/unix/chkconf.h:
+/usr/include/wx-3.0/wx/unix/chkconf.h:
 
-/usr/local/include/wx-3.0/wx/version.h:
+/usr/include/wx-3.0/wx/version.h:
 
-/usr/local/include/wx-3.0/wx/cpp.h:
+/usr/include/wx-3.0/wx/cpp.h:
 
-/usr/local/include/wx-3.0/wx/dlimpexp.h:
+/usr/include/wx-3.0/wx/dlimpexp.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/stddef.h:
 
-/usr/local/include/wx-3.0/wx/debug.h:
+/usr/include/wx-3.0/wx/debug.h:
 
 /usr/include/assert.h:
 
@@ -361,7 +300,7 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
 
 /usr/include/bits/stdio_lim.h:
 
-/usr/local/include/wx-3.0/wx/chartype.h:
+/usr/include/wx-3.0/wx/chartype.h:
 
 /usr/include/wchar.h:
 
@@ -401,15 +340,15 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
 
 /usr/include/bits/pthreadtypes.h:
 
-/usr/local/include/wx-3.0/wx/windowid.h:
+/usr/include/wx-3.0/wx/windowid.h:
 
-/usr/local/include/wx-3.0/wx/features.h:
+/usr/include/wx-3.0/wx/features.h:
 
-/usr/local/include/wx-3.0/wx/object.h:
+/usr/include/wx-3.0/wx/object.h:
 
-/usr/local/include/wx-3.0/wx/memory.h:
+/usr/include/wx-3.0/wx/memory.h:
 
-/usr/local/include/wx-3.0/wx/string.h:
+/usr/include/wx-3.0/wx/string.h:
 
 /usr/include/string.h:
 
@@ -443,7 +382,7 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/std_abs.h:
 
-/usr/local/include/wx-3.0/wx/wxcrtbase.h:
+/usr/include/wx-3.0/wx/wxcrtbase.h:
 
 /usr/include/ctype.h:
 
@@ -451,19 +390,19 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
 
 /usr/include/bits/timex.h:
 
-/usr/local/include/wx-3.0/wx/strvararg.h:
+/usr/include/wx-3.0/wx/strvararg.h:
 
-/usr/local/include/wx-3.0/wx/strconv.h:
+/usr/include/wx-3.0/wx/strconv.h:
 
-/usr/local/include/wx-3.0/wx/buffer.h:
+/usr/include/wx-3.0/wx/buffer.h:
 
-/usr/local/include/wx-3.0/wx/fontenc.h:
+/usr/include/wx-3.0/wx/fontenc.h:
 
-/usr/local/include/wx-3.0/wx/unichar.h:
+/usr/include/wx-3.0/wx/unichar.h:
 
-/usr/local/include/wx-3.0/wx/stringimpl.h:
+/usr/include/wx-3.0/wx/stringimpl.h:
 
-/usr/local/include/wx-3.0/wx/beforestd.h:
+/usr/include/wx-3.0/wx/beforestd.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/string:
 
@@ -609,49 +548,49 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/basic_string.tcc:
 
-/usr/local/include/wx-3.0/wx/afterstd.h:
+/usr/include/wx-3.0/wx/afterstd.h:
 
-/usr/local/include/wx-3.0/wx/stringops.h:
+/usr/include/wx-3.0/wx/stringops.h:
 
-/usr/local/include/wx-3.0/wx/iosfwrap.h:
+/usr/include/wx-3.0/wx/iosfwrap.h:
 
-/usr/local/include/wx-3.0/wx/crt.h:
+/usr/include/wx-3.0/wx/crt.h:
 
-/usr/local/include/wx-3.0/wx/wxcrt.h:
+/usr/include/wx-3.0/wx/wxcrt.h:
 
-/usr/local/include/wx-3.0/wx/wxcrtvararg.h:
+/usr/include/wx-3.0/wx/wxcrtvararg.h:
 
-/usr/local/include/wx-3.0/wx/msgout.h:
+/usr/include/wx-3.0/wx/msgout.h:
 
-/usr/local/include/wx-3.0/wx/xti.h:
+/usr/include/wx-3.0/wx/xti.h:
 
-/usr/local/include/wx-3.0/wx/rtti.h:
+/usr/include/wx-3.0/wx/rtti.h:
 
-/usr/local/include/wx-3.0/wx/flags.h:
+/usr/include/wx-3.0/wx/flags.h:
 
-/usr/local/include/wx-3.0/wx/xti2.h:
+/usr/include/wx-3.0/wx/xti2.h:
 
-/usr/local/include/wx-3.0/wx/clntdata.h:
+/usr/include/wx-3.0/wx/clntdata.h:
 
-/usr/local/include/wx-3.0/wx/hashmap.h:
+/usr/include/wx-3.0/wx/hashmap.h:
 
-/usr/local/include/wx-3.0/wx/gdicmn.h:
+/usr/include/wx-3.0/wx/gdicmn.h:
 
-/usr/local/include/wx-3.0/wx/list.h:
+/usr/include/wx-3.0/wx/list.h:
 
-/usr/local/include/wx-3.0/wx/vector.h:
+/usr/include/wx-3.0/wx/vector.h:
 
-/usr/local/include/wx-3.0/wx/scopeguard.h:
+/usr/include/wx-3.0/wx/scopeguard.h:
 
-/usr/local/include/wx-3.0/wx/except.h:
+/usr/include/wx-3.0/wx/except.h:
 
-/usr/local/include/wx-3.0/wx/meta/movable.h:
+/usr/include/wx-3.0/wx/meta/movable.h:
 
-/usr/local/include/wx-3.0/wx/meta/pod.h:
+/usr/include/wx-3.0/wx/meta/pod.h:
 
-/usr/local/include/wx-3.0/wx/meta/if.h:
+/usr/include/wx-3.0/wx/meta/if.h:
 
-/usr/local/include/wx-3.0/wx/math.h:
+/usr/include/wx-3.0/wx/math.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/math.h:
 
@@ -675,17 +614,17 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
 
 /usr/include/bits/mathinline.h:
 
-/usr/local/include/wx-3.0/wx/cursor.h:
+/usr/include/wx-3.0/wx/cursor.h:
 
-/usr/local/include/wx-3.0/wx/gtk/cursor.h:
+/usr/include/wx-3.0/wx/gtk/cursor.h:
 
-/usr/local/include/wx-3.0/wx/gdiobj.h:
+/usr/include/wx-3.0/wx/gdiobj.h:
 
-/usr/local/include/wx-3.0/wx/utils.h:
+/usr/include/wx-3.0/wx/utils.h:
 
-/usr/local/include/wx-3.0/wx/filefn.h:
+/usr/include/wx-3.0/wx/filefn.h:
 
-/usr/local/include/wx-3.0/wx/arrstr.h:
+/usr/include/wx-3.0/wx/arrstr.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/iterator:
 
@@ -759,131 +698,131 @@ gui/cisTEM-mathplot.o: gui/mathplot.cpp /usr/include/stdc-predef.h \
 
 /usr/include/bits/uio.h:
 
-/usr/local/include/wx-3.0/wx/versioninfo.h:
+/usr/include/wx-3.0/wx/versioninfo.h:
 
-/usr/local/include/wx-3.0/wx/meta/implicitconversion.h:
+/usr/include/wx-3.0/wx/meta/implicitconversion.h:
 
-/usr/local/include/wx-3.0/wx/mousestate.h:
+/usr/include/wx-3.0/wx/mousestate.h:
 
-/usr/local/include/wx-3.0/wx/kbdstate.h:
+/usr/include/wx-3.0/wx/kbdstate.h:
 
-/usr/local/include/wx-3.0/wx/longlong.h:
+/usr/include/wx-3.0/wx/longlong.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/limits:
 
-/usr/local/include/wx-3.0/wx/platinfo.h:
+/usr/include/wx-3.0/wx/platinfo.h:
 
-/usr/local/include/wx-3.0/wx/dynarray.h:
+/usr/include/wx-3.0/wx/dynarray.h:
 
-/usr/local/include/wx-3.0/wx/thread.h:
+/usr/include/wx-3.0/wx/thread.h:
 
-/usr/local/include/wx-3.0/wx/tracker.h:
+/usr/include/wx-3.0/wx/tracker.h:
 
-/usr/local/include/wx-3.0/wx/typeinfo.h:
+/usr/include/wx-3.0/wx/typeinfo.h:
 
-/usr/local/include/wx-3.0/wx/any.h:
+/usr/include/wx-3.0/wx/any.h:
 
-/usr/local/include/wx-3.0/wx/datetime.h:
+/usr/include/wx-3.0/wx/datetime.h:
 
-/usr/local/include/wx-3.0/wx/anystr.h:
+/usr/include/wx-3.0/wx/anystr.h:
 
-/usr/local/include/wx-3.0/wx/variant.h:
+/usr/include/wx-3.0/wx/variant.h:
 
-/usr/local/include/wx-3.0/wx/meta/convertible.h:
+/usr/include/wx-3.0/wx/meta/convertible.h:
 
-/usr/local/include/wx-3.0/wx/meta/removeref.h:
+/usr/include/wx-3.0/wx/meta/removeref.h:
 
-/usr/local/include/wx-3.0/wx/font.h:
+/usr/include/wx-3.0/wx/font.h:
 
-/usr/local/include/wx-3.0/wx/gtk/font.h:
+/usr/include/wx-3.0/wx/gtk/font.h:
 
-/usr/local/include/wx-3.0/wx/colour.h:
+/usr/include/wx-3.0/wx/colour.h:
 
-/usr/local/include/wx-3.0/wx/gtk/colour.h:
+/usr/include/wx-3.0/wx/gtk/colour.h:
 
-/usr/local/include/wx-3.0/wx/region.h:
+/usr/include/wx-3.0/wx/region.h:
 
-/usr/local/include/wx-3.0/wx/gtk/region.h:
+/usr/include/wx-3.0/wx/gtk/region.h:
 
-/usr/local/include/wx-3.0/wx/intl.h:
+/usr/include/wx-3.0/wx/intl.h:
 
-/usr/local/include/wx-3.0/wx/translation.h:
+/usr/include/wx-3.0/wx/translation.h:
 
-/usr/local/include/wx-3.0/wx/language.h:
+/usr/include/wx-3.0/wx/language.h:
 
-/usr/local/include/wx-3.0/wx/scopedptr.h:
+/usr/include/wx-3.0/wx/scopedptr.h:
 
-/usr/local/include/wx-3.0/wx/checkeddelete.h:
+/usr/include/wx-3.0/wx/checkeddelete.h:
 
-/usr/local/include/wx-3.0/wx/validate.h:
+/usr/include/wx-3.0/wx/validate.h:
 
-/usr/local/include/wx-3.0/wx/palette.h:
+/usr/include/wx-3.0/wx/palette.h:
 
-/usr/local/include/wx-3.0/wx/generic/paletteg.h:
+/usr/include/wx-3.0/wx/generic/paletteg.h:
 
-/usr/local/include/wx-3.0/wx/accel.h:
+/usr/include/wx-3.0/wx/accel.h:
 
-/usr/local/include/wx-3.0/wx/gtk/accel.h:
+/usr/include/wx-3.0/wx/gtk/accel.h:
 
-/usr/local/include/wx-3.0/wx/generic/accel.h:
+/usr/include/wx-3.0/wx/generic/accel.h:
 
-/usr/local/include/wx-3.0/wx/gtk/window.h:
+/usr/include/wx-3.0/wx/gtk/window.h:
 
-/usr/local/include/wx-3.0/wx/tokenzr.h:
+/usr/include/wx-3.0/wx/tokenzr.h:
 
-/usr/local/include/wx-3.0/wx/settings.h:
+/usr/include/wx-3.0/wx/settings.h:
 
-/usr/local/include/wx-3.0/wx/sizer.h:
+/usr/include/wx-3.0/wx/sizer.h:
 
-/usr/local/include/wx-3.0/wx/log.h:
+/usr/include/wx-3.0/wx/log.h:
 
-/usr/local/include/wx-3.0/wx/generic/logg.h:
+/usr/include/wx-3.0/wx/generic/logg.h:
 
-/usr/local/include/wx-3.0/wx/dcclient.h:
+/usr/include/wx-3.0/wx/dcclient.h:
 
-/usr/local/include/wx-3.0/wx/dc.h:
+/usr/include/wx-3.0/wx/dc.h:
 
-/usr/local/include/wx-3.0/wx/bitmap.h:
+/usr/include/wx-3.0/wx/bitmap.h:
 
-/usr/local/include/wx-3.0/wx/image.h:
+/usr/include/wx-3.0/wx/image.h:
 
-/usr/local/include/wx-3.0/wx/stream.h:
+/usr/include/wx-3.0/wx/stream.h:
 
-/usr/local/include/wx-3.0/wx/imagbmp.h:
+/usr/include/wx-3.0/wx/imagbmp.h:
 
-/usr/local/include/wx-3.0/wx/imagpng.h:
+/usr/include/wx-3.0/wx/imagpng.h:
 
-/usr/local/include/wx-3.0/wx/imaggif.h:
+/usr/include/wx-3.0/wx/imaggif.h:
 
-/usr/local/include/wx-3.0/wx/imagpcx.h:
+/usr/include/wx-3.0/wx/imagpcx.h:
 
-/usr/local/include/wx-3.0/wx/imagjpeg.h:
+/usr/include/wx-3.0/wx/imagjpeg.h:
 
-/usr/local/include/wx-3.0/wx/imagtga.h:
+/usr/include/wx-3.0/wx/imagtga.h:
 
-/usr/local/include/wx-3.0/wx/imagtiff.h:
+/usr/include/wx-3.0/wx/imagtiff.h:
 
-/usr/local/include/wx-3.0/wx/imagpnm.h:
+/usr/include/wx-3.0/wx/imagpnm.h:
 
-/usr/local/include/wx-3.0/wx/imagxpm.h:
+/usr/include/wx-3.0/wx/imagxpm.h:
 
-/usr/local/include/wx-3.0/wx/imagiff.h:
+/usr/include/wx-3.0/wx/imagiff.h:
 
-/usr/local/include/wx-3.0/wx/gtk/bitmap.h:
+/usr/include/wx-3.0/wx/gtk/bitmap.h:
 
-/usr/local/include/wx-3.0/wx/brush.h:
+/usr/include/wx-3.0/wx/brush.h:
 
-/usr/local/include/wx-3.0/wx/gtk/brush.h:
+/usr/include/wx-3.0/wx/gtk/brush.h:
 
-/usr/local/include/wx-3.0/wx/pen.h:
+/usr/include/wx-3.0/wx/pen.h:
 
-/usr/local/include/wx-3.0/wx/gtk/pen.h:
+/usr/include/wx-3.0/wx/gtk/pen.h:
 
-/usr/local/include/wx-3.0/wx/affinematrix2d.h:
+/usr/include/wx-3.0/wx/affinematrix2d.h:
 
-/usr/local/include/wx-3.0/wx/affinematrix2dbase.h:
+/usr/include/wx-3.0/wx/affinematrix2dbase.h:
 
-/usr/local/include/wx-3.0/wx/geometry.h:
+/usr/include/wx-3.0/wx/geometry.h:
 
 gui/mathplot.h:
 
@@ -899,73 +838,73 @@ gui/mathplot.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/vector.tcc:
 
-/usr/local/include/wx-3.0/wx/menu.h:
+/usr/include/wx-3.0/wx/menu.h:
 
-/usr/local/include/wx-3.0/wx/menuitem.h:
+/usr/include/wx-3.0/wx/menuitem.h:
 
-/usr/local/include/wx-3.0/wx/gtk/menuitem.h:
+/usr/include/wx-3.0/wx/gtk/menuitem.h:
 
-/usr/local/include/wx-3.0/wx/gtk/menu.h:
+/usr/include/wx-3.0/wx/gtk/menu.h:
 
-/usr/local/include/wx-3.0/wx/scrolwin.h:
+/usr/include/wx-3.0/wx/scrolwin.h:
 
-/usr/local/include/wx-3.0/wx/panel.h:
+/usr/include/wx-3.0/wx/panel.h:
 
-/usr/local/include/wx-3.0/wx/containr.h:
+/usr/include/wx-3.0/wx/containr.h:
 
-/usr/local/include/wx-3.0/wx/generic/panelg.h:
+/usr/include/wx-3.0/wx/generic/panelg.h:
 
-/usr/local/include/wx-3.0/wx/gtk/scrolwin.h:
+/usr/include/wx-3.0/wx/gtk/scrolwin.h:
 
-/usr/local/include/wx-3.0/wx/dcmemory.h:
+/usr/include/wx-3.0/wx/dcmemory.h:
 
-/usr/local/include/wx-3.0/wx/print.h:
+/usr/include/wx-3.0/wx/print.h:
 
-/usr/local/include/wx-3.0/wx/generic/printps.h:
+/usr/include/wx-3.0/wx/generic/printps.h:
 
-/usr/local/include/wx-3.0/wx/prntbase.h:
+/usr/include/wx-3.0/wx/prntbase.h:
 
-/usr/local/include/wx-3.0/wx/cmndata.h:
+/usr/include/wx-3.0/wx/cmndata.h:
 
-/usr/local/include/wx-3.0/wx/dialog.h:
+/usr/include/wx-3.0/wx/dialog.h:
 
-/usr/local/include/wx-3.0/wx/toplevel.h:
+/usr/include/wx-3.0/wx/toplevel.h:
 
-/usr/local/include/wx-3.0/wx/nonownedwnd.h:
+/usr/include/wx-3.0/wx/nonownedwnd.h:
 
-/usr/local/include/wx-3.0/wx/gtk/nonownedwnd.h:
+/usr/include/wx-3.0/wx/gtk/nonownedwnd.h:
 
-/usr/local/include/wx-3.0/wx/iconbndl.h:
+/usr/include/wx-3.0/wx/iconbndl.h:
 
-/usr/local/include/wx-3.0/wx/icon.h:
+/usr/include/wx-3.0/wx/icon.h:
 
-/usr/local/include/wx-3.0/wx/iconloc.h:
+/usr/include/wx-3.0/wx/iconloc.h:
 
-/usr/local/include/wx-3.0/wx/generic/icon.h:
+/usr/include/wx-3.0/wx/generic/icon.h:
 
-/usr/local/include/wx-3.0/wx/weakref.h:
+/usr/include/wx-3.0/wx/weakref.h:
 
-/usr/local/include/wx-3.0/wx/meta/int2type.h:
+/usr/include/wx-3.0/wx/meta/int2type.h:
 
-/usr/local/include/wx-3.0/wx/gtk/toplevel.h:
+/usr/include/wx-3.0/wx/gtk/toplevel.h:
 
-/usr/local/include/wx-3.0/wx/sharedptr.h:
+/usr/include/wx-3.0/wx/sharedptr.h:
 
-/usr/local/include/wx-3.0/wx/atomic.h:
+/usr/include/wx-3.0/wx/atomic.h:
 
-/usr/local/include/wx-3.0/wx/gtk/dialog.h:
+/usr/include/wx-3.0/wx/gtk/dialog.h:
 
-/usr/local/include/wx-3.0/wx/frame.h:
+/usr/include/wx-3.0/wx/frame.h:
 
-/usr/local/include/wx-3.0/wx/statusbr.h:
+/usr/include/wx-3.0/wx/statusbr.h:
 
-/usr/local/include/wx-3.0/wx/control.h:
+/usr/include/wx-3.0/wx/control.h:
 
-/usr/local/include/wx-3.0/wx/gtk/control.h:
+/usr/include/wx-3.0/wx/gtk/control.h:
 
-/usr/local/include/wx-3.0/wx/generic/statusbr.h:
+/usr/include/wx-3.0/wx/generic/statusbr.h:
 
-/usr/local/include/wx-3.0/wx/gtk/frame.h:
+/usr/include/wx-3.0/wx/gtk/frame.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/deque:
 
@@ -973,34 +912,34 @@ gui/mathplot.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/deque.tcc:
 
-/usr/local/include/wx-3.0/wx/bmpbuttn.h:
+/usr/include/wx-3.0/wx/bmpbuttn.h:
 
-/usr/local/include/wx-3.0/wx/button.h:
+/usr/include/wx-3.0/wx/button.h:
 
-/usr/local/include/wx-3.0/wx/anybutton.h:
+/usr/include/wx-3.0/wx/anybutton.h:
 
-/usr/local/include/wx-3.0/wx/gtk/anybutton.h:
+/usr/include/wx-3.0/wx/gtk/anybutton.h:
 
-/usr/local/include/wx-3.0/wx/gtk/button.h:
+/usr/include/wx-3.0/wx/gtk/button.h:
 
-/usr/local/include/wx-3.0/wx/gtk/bmpbuttn.h:
+/usr/include/wx-3.0/wx/gtk/bmpbuttn.h:
 
-/usr/local/include/wx-3.0/wx/module.h:
+/usr/include/wx-3.0/wx/module.h:
 
-/usr/local/include/wx-3.0/wx/msgdlg.h:
+/usr/include/wx-3.0/wx/msgdlg.h:
 
-/usr/local/include/wx-3.0/wx/stockitem.h:
+/usr/include/wx-3.0/wx/stockitem.h:
 
-/usr/local/include/wx-3.0/wx/generic/msgdlgg.h:
+/usr/include/wx-3.0/wx/generic/msgdlgg.h:
 
-/usr/local/include/wx-3.0/wx/gtk/msgdlg.h:
+/usr/include/wx-3.0/wx/gtk/msgdlg.h:
 
-/usr/local/include/wx-3.0/wx/tipwin.h:
+/usr/include/wx-3.0/wx/tipwin.h:
 
-/usr/local/include/wx-3.0/wx/popupwin.h:
+/usr/include/wx-3.0/wx/popupwin.h:
 
-/usr/local/include/wx-3.0/wx/gtk/popupwin.h:
+/usr/include/wx-3.0/wx/gtk/popupwin.h:
 
-/usr/local/include/wx-3.0/wx/graphics.h:
+/usr/include/wx-3.0/wx/graphics.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/ctime:

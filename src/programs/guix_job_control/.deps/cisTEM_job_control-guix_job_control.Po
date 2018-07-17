@@ -1,18 +1,14 @@
 programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
  programs/guix_job_control/guix_job_control.cpp \
- /usr/include/stdc-predef.h /usr/local/include/wx-3.0/wx/wx.h \
- /usr/local/include/wx-3.0/wx/defs.h \
- /usr/local/include/wx-3.0/wx/platform.h \
- /usr/local/include/wx-3.0/wx/compiler.h \
- /usr/local/lib/wx/include/gtk2-unicode-static-3.0/wx/setup.h \
- /usr/local/include/wx-3.0/wx/chkconf.h \
- /usr/local/include/wx-3.0/wx/gtk/chkconf.h \
- /usr/local/include/wx-3.0/wx/unix/chkconf.h \
- /usr/local/include/wx-3.0/wx/version.h \
- /usr/local/include/wx-3.0/wx/cpp.h \
- /usr/local/include/wx-3.0/wx/dlimpexp.h \
+ /usr/include/stdc-predef.h /usr/include/wx-3.0/wx/wx.h \
+ /usr/include/wx-3.0/wx/defs.h /usr/include/wx-3.0/wx/platform.h \
+ /usr/include/wx-3.0/wx/compiler.h \
+ /usr/lib/wx/include/gtk2-unicode-3.0/wx/setup.h \
+ /usr/include/wx-3.0/wx/chkconf.h /usr/include/wx-3.0/wx/gtk/chkconf.h \
+ /usr/include/wx-3.0/wx/unix/chkconf.h /usr/include/wx-3.0/wx/version.h \
+ /usr/include/wx-3.0/wx/cpp.h /usr/include/wx-3.0/wx/dlimpexp.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/stddef.h \
- /usr/local/include/wx-3.0/wx/debug.h /usr/include/assert.h \
+ /usr/include/wx-3.0/wx/debug.h /usr/include/assert.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
  /usr/include/gnu/stubs-64.h \
@@ -21,7 +17,7 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/stdio_lim.h /usr/local/include/wx-3.0/wx/chartype.h \
+ /usr/include/bits/stdio_lim.h /usr/include/wx-3.0/wx/chartype.h \
  /usr/include/wchar.h /usr/include/stdio.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/stdarg.h \
  /usr/include/bits/wchar.h /usr/include/xlocale.h \
@@ -31,10 +27,9 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
  /usr/include/bits/byteswap-16.h /usr/include/sys/select.h \
  /usr/include/bits/select.h /usr/include/bits/sigset.h \
  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
- /usr/include/bits/pthreadtypes.h /usr/local/include/wx-3.0/wx/features.h \
- /usr/local/include/wx-3.0/wx/object.h \
- /usr/local/include/wx-3.0/wx/memory.h \
- /usr/local/include/wx-3.0/wx/string.h /usr/include/string.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/wx-3.0/wx/features.h \
+ /usr/include/wx-3.0/wx/object.h /usr/include/wx-3.0/wx/memory.h \
+ /usr/include/wx-3.0/wx/string.h /usr/include/string.h \
  /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/stdlib.h \
@@ -46,15 +41,12 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
  /usr/include/bits/waitstatus.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/std_abs.h \
- /usr/local/include/wx-3.0/wx/wxcrtbase.h /usr/include/ctype.h \
+ /usr/include/wx-3.0/wx/wxcrtbase.h /usr/include/ctype.h \
  /usr/include/wctype.h /usr/include/bits/timex.h \
- /usr/local/include/wx-3.0/wx/strvararg.h \
- /usr/local/include/wx-3.0/wx/strconv.h \
- /usr/local/include/wx-3.0/wx/buffer.h \
- /usr/local/include/wx-3.0/wx/fontenc.h \
- /usr/local/include/wx-3.0/wx/unichar.h \
- /usr/local/include/wx-3.0/wx/stringimpl.h \
- /usr/local/include/wx-3.0/wx/beforestd.h \
+ /usr/include/wx-3.0/wx/strvararg.h /usr/include/wx-3.0/wx/strconv.h \
+ /usr/include/wx-3.0/wx/buffer.h /usr/include/wx-3.0/wx/fontenc.h \
+ /usr/include/wx-3.0/wx/unichar.h /usr/include/wx-3.0/wx/stringimpl.h \
+ /usr/include/wx-3.0/wx/beforestd.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/string \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/stringfwd.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/memoryfwd.h \
@@ -121,25 +113,17 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/functional_hash.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/basic_string.tcc \
- /usr/local/include/wx-3.0/wx/afterstd.h \
- /usr/local/include/wx-3.0/wx/stringops.h \
- /usr/local/include/wx-3.0/wx/iosfwrap.h \
- /usr/local/include/wx-3.0/wx/crt.h /usr/local/include/wx-3.0/wx/wxcrt.h \
- /usr/local/include/wx-3.0/wx/wxcrtvararg.h \
- /usr/local/include/wx-3.0/wx/msgout.h /usr/local/include/wx-3.0/wx/xti.h \
- /usr/local/include/wx-3.0/wx/rtti.h /usr/local/include/wx-3.0/wx/flags.h \
- /usr/local/include/wx-3.0/wx/xti2.h \
- /usr/local/include/wx-3.0/wx/dynarray.h \
- /usr/local/include/wx-3.0/wx/list.h \
- /usr/local/include/wx-3.0/wx/vector.h \
- /usr/local/include/wx-3.0/wx/scopeguard.h \
- /usr/local/include/wx-3.0/wx/except.h \
- /usr/local/include/wx-3.0/wx/meta/movable.h \
- /usr/local/include/wx-3.0/wx/meta/pod.h \
- /usr/local/include/wx-3.0/wx/meta/if.h \
- /usr/local/include/wx-3.0/wx/hash.h \
- /usr/local/include/wx-3.0/wx/hashmap.h \
- /usr/local/include/wx-3.0/wx/arrstr.h \
+ /usr/include/wx-3.0/wx/afterstd.h /usr/include/wx-3.0/wx/stringops.h \
+ /usr/include/wx-3.0/wx/iosfwrap.h /usr/include/wx-3.0/wx/crt.h \
+ /usr/include/wx-3.0/wx/wxcrt.h /usr/include/wx-3.0/wx/wxcrtvararg.h \
+ /usr/include/wx-3.0/wx/msgout.h /usr/include/wx-3.0/wx/xti.h \
+ /usr/include/wx-3.0/wx/rtti.h /usr/include/wx-3.0/wx/flags.h \
+ /usr/include/wx-3.0/wx/xti2.h /usr/include/wx-3.0/wx/dynarray.h \
+ /usr/include/wx-3.0/wx/list.h /usr/include/wx-3.0/wx/vector.h \
+ /usr/include/wx-3.0/wx/scopeguard.h /usr/include/wx-3.0/wx/except.h \
+ /usr/include/wx-3.0/wx/meta/movable.h /usr/include/wx-3.0/wx/meta/pod.h \
+ /usr/include/wx-3.0/wx/meta/if.h /usr/include/wx-3.0/wx/hash.h \
+ /usr/include/wx-3.0/wx/hashmap.h /usr/include/wx-3.0/wx/arrstr.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/iterator \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/ostream \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/ios \
@@ -163,57 +147,44 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/istream \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/istream.tcc \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/stream_iterator.h \
- /usr/local/include/wx-3.0/wx/intl.h \
- /usr/local/include/wx-3.0/wx/translation.h \
- /usr/local/include/wx-3.0/wx/language.h \
- /usr/local/include/wx-3.0/wx/scopedptr.h \
- /usr/local/include/wx-3.0/wx/checkeddelete.h \
- /usr/local/include/wx-3.0/wx/log.h /usr/local/include/wx-3.0/wx/thread.h \
- /usr/local/include/wx-3.0/wx/event.h \
- /usr/local/include/wx-3.0/wx/clntdata.h \
- /usr/local/include/wx-3.0/wx/tracker.h \
- /usr/local/include/wx-3.0/wx/typeinfo.h \
- /usr/local/include/wx-3.0/wx/any.h \
- /usr/local/include/wx-3.0/wx/datetime.h \
- /usr/local/include/wx-3.0/wx/longlong.h \
+ /usr/include/wx-3.0/wx/intl.h /usr/include/wx-3.0/wx/translation.h \
+ /usr/include/wx-3.0/wx/language.h /usr/include/wx-3.0/wx/scopedptr.h \
+ /usr/include/wx-3.0/wx/checkeddelete.h /usr/include/wx-3.0/wx/log.h \
+ /usr/include/wx-3.0/wx/thread.h /usr/include/wx-3.0/wx/event.h \
+ /usr/include/wx-3.0/wx/clntdata.h /usr/include/wx-3.0/wx/tracker.h \
+ /usr/include/wx-3.0/wx/typeinfo.h /usr/include/wx-3.0/wx/any.h \
+ /usr/include/wx-3.0/wx/datetime.h /usr/include/wx-3.0/wx/longlong.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/limits \
- /usr/local/include/wx-3.0/wx/anystr.h \
- /usr/local/include/wx-3.0/wx/variant.h \
- /usr/local/include/wx-3.0/wx/meta/convertible.h \
- /usr/local/include/wx-3.0/wx/meta/removeref.h \
- /usr/local/include/wx-3.0/wx/app.h \
- /usr/local/include/wx-3.0/wx/eventfilter.h \
- /usr/local/include/wx-3.0/wx/build.h \
- /usr/local/include/wx-3.0/wx/cmdargs.h \
- /usr/local/include/wx-3.0/wx/init.h \
- /usr/local/include/wx-3.0/wx/unix/app.h /usr/include/signal.h \
+ /usr/include/wx-3.0/wx/anystr.h /usr/include/wx-3.0/wx/variant.h \
+ /usr/include/wx-3.0/wx/meta/convertible.h \
+ /usr/include/wx-3.0/wx/meta/removeref.h /usr/include/wx-3.0/wx/app.h \
+ /usr/include/wx-3.0/wx/eventfilter.h /usr/include/wx-3.0/wx/build.h \
+ /usr/include/wx-3.0/wx/cmdargs.h /usr/include/wx-3.0/wx/init.h \
+ /usr/include/wx-3.0/wx/unix/app.h /usr/include/signal.h \
  /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
  /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
  /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
- /usr/include/bits/sigthread.h /usr/local/include/wx-3.0/wx/utils.h \
- /usr/local/include/wx-3.0/wx/filefn.h /usr/include/sys/stat.h \
+ /usr/include/bits/sigthread.h /usr/include/wx-3.0/wx/utils.h \
+ /usr/include/wx-3.0/wx/filefn.h /usr/include/sys/stat.h \
  /usr/include/bits/stat.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/dirent.h \
  /usr/include/bits/dirent.h /usr/include/fcntl.h \
  /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
- /usr/include/bits/uio.h /usr/local/include/wx-3.0/wx/versioninfo.h \
- /usr/local/include/wx-3.0/wx/meta/implicitconversion.h \
- /usr/local/include/wx-3.0/wx/platinfo.h \
- /usr/local/include/wx-3.0/wx/stream.h \
- /usr/local/include/wx-3.0/wx/math.h \
+ /usr/include/bits/uio.h /usr/include/wx-3.0/wx/versioninfo.h \
+ /usr/include/wx-3.0/wx/meta/implicitconversion.h \
+ /usr/include/wx-3.0/wx/platinfo.h /usr/include/wx-3.0/wx/stream.h \
+ /usr/include/wx-3.0/wx/math.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/math.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/cmath \
  /usr/include/math.h /usr/include/bits/huge_val.h \
  /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
  /usr/include/bits/inf.h /usr/include/bits/nan.h \
  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
- /usr/include/bits/mathinline.h /usr/local/include/wx-3.0/wx/stopwatch.h \
- /usr/local/include/wx-3.0/wx/time.h /usr/local/include/wx-3.0/wx/timer.h \
- /usr/local/include/wx-3.0/wx/module.h \
- /usr/local/include/wx-3.0/wx/cmdline.h \
- /usr/local/include/wx-3.0/wx/socket.h \
- /usr/local/include/wx-3.0/wx/sckaddr.h \
+ /usr/include/bits/mathinline.h /usr/include/wx-3.0/wx/stopwatch.h \
+ /usr/include/wx-3.0/wx/time.h /usr/include/wx-3.0/wx/timer.h \
+ /usr/include/wx-3.0/wx/module.h /usr/include/wx-3.0/wx/cmdline.h \
+ /usr/include/wx-3.0/wx/socket.h /usr/include/wx-3.0/wx/sckaddr.h \
  programs/guix_job_control/../../core/core_headers.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/iostream \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/fstream \
@@ -242,20 +213,14 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/stl_vector.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/stl_bvector.h \
  /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/vector.tcc \
- /usr/include/fftw3.h \
+ /usr/local/include/fftw3.h \
  programs/guix_job_control/../../core/sqlite/sqlite3.h \
- /usr/local/include/wx-3.0/wx/stdpaths.h \
- /usr/local/include/wx-3.0/wx/unix/stdpaths.h \
- /usr/local/include/wx-3.0/wx/filename.h \
- /usr/local/include/wx-3.0/wx/file.h \
- /usr/local/include/wx-3.0/wx/convauto.h \
- /usr/local/include/wx-3.0/wx/dir.h \
- /usr/local/include/wx-3.0/wx/wfstream.h \
- /usr/local/include/wx-3.0/wx/ffile.h \
- /usr/local/include/wx-3.0/wx/tokenzr.h \
- /usr/local/include/wx-3.0/wx/txtstrm.h \
- /usr/local/include/wx-3.0/wx/textfile.h \
- /usr/local/include/wx-3.0/wx/textbuf.h \
+ /usr/include/wx-3.0/wx/stdpaths.h /usr/include/wx-3.0/wx/unix/stdpaths.h \
+ /usr/include/wx-3.0/wx/filename.h /usr/include/wx-3.0/wx/file.h \
+ /usr/include/wx-3.0/wx/convauto.h /usr/include/wx-3.0/wx/dir.h \
+ /usr/include/wx-3.0/wx/wfstream.h /usr/include/wx-3.0/wx/ffile.h \
+ /usr/include/wx-3.0/wx/tokenzr.h /usr/include/wx-3.0/wx/txtstrm.h \
+ /usr/include/wx-3.0/wx/textfile.h /usr/include/wx-3.0/wx/textbuf.h \
  programs/guix_job_control/../../core/defines.h \
  programs/guix_job_control/../../core/assets.h \
  programs/guix_job_control/../../core/asset_group.h \
@@ -311,31 +276,31 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
 
 /usr/include/stdc-predef.h:
 
-/usr/local/include/wx-3.0/wx/wx.h:
+/usr/include/wx-3.0/wx/wx.h:
 
-/usr/local/include/wx-3.0/wx/defs.h:
+/usr/include/wx-3.0/wx/defs.h:
 
-/usr/local/include/wx-3.0/wx/platform.h:
+/usr/include/wx-3.0/wx/platform.h:
 
-/usr/local/include/wx-3.0/wx/compiler.h:
+/usr/include/wx-3.0/wx/compiler.h:
 
-/usr/local/lib/wx/include/gtk2-unicode-static-3.0/wx/setup.h:
+/usr/lib/wx/include/gtk2-unicode-3.0/wx/setup.h:
 
-/usr/local/include/wx-3.0/wx/chkconf.h:
+/usr/include/wx-3.0/wx/chkconf.h:
 
-/usr/local/include/wx-3.0/wx/gtk/chkconf.h:
+/usr/include/wx-3.0/wx/gtk/chkconf.h:
 
-/usr/local/include/wx-3.0/wx/unix/chkconf.h:
+/usr/include/wx-3.0/wx/unix/chkconf.h:
 
-/usr/local/include/wx-3.0/wx/version.h:
+/usr/include/wx-3.0/wx/version.h:
 
-/usr/local/include/wx-3.0/wx/cpp.h:
+/usr/include/wx-3.0/wx/cpp.h:
 
-/usr/local/include/wx-3.0/wx/dlimpexp.h:
+/usr/include/wx-3.0/wx/dlimpexp.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include/stddef.h:
 
-/usr/local/include/wx-3.0/wx/debug.h:
+/usr/include/wx-3.0/wx/debug.h:
 
 /usr/include/assert.h:
 
@@ -367,7 +332,7 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
 
 /usr/include/bits/stdio_lim.h:
 
-/usr/local/include/wx-3.0/wx/chartype.h:
+/usr/include/wx-3.0/wx/chartype.h:
 
 /usr/include/wchar.h:
 
@@ -407,13 +372,13 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
 
 /usr/include/bits/pthreadtypes.h:
 
-/usr/local/include/wx-3.0/wx/features.h:
+/usr/include/wx-3.0/wx/features.h:
 
-/usr/local/include/wx-3.0/wx/object.h:
+/usr/include/wx-3.0/wx/object.h:
 
-/usr/local/include/wx-3.0/wx/memory.h:
+/usr/include/wx-3.0/wx/memory.h:
 
-/usr/local/include/wx-3.0/wx/string.h:
+/usr/include/wx-3.0/wx/string.h:
 
 /usr/include/string.h:
 
@@ -447,7 +412,7 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/std_abs.h:
 
-/usr/local/include/wx-3.0/wx/wxcrtbase.h:
+/usr/include/wx-3.0/wx/wxcrtbase.h:
 
 /usr/include/ctype.h:
 
@@ -455,19 +420,19 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
 
 /usr/include/bits/timex.h:
 
-/usr/local/include/wx-3.0/wx/strvararg.h:
+/usr/include/wx-3.0/wx/strvararg.h:
 
-/usr/local/include/wx-3.0/wx/strconv.h:
+/usr/include/wx-3.0/wx/strconv.h:
 
-/usr/local/include/wx-3.0/wx/buffer.h:
+/usr/include/wx-3.0/wx/buffer.h:
 
-/usr/local/include/wx-3.0/wx/fontenc.h:
+/usr/include/wx-3.0/wx/fontenc.h:
 
-/usr/local/include/wx-3.0/wx/unichar.h:
+/usr/include/wx-3.0/wx/unichar.h:
 
-/usr/local/include/wx-3.0/wx/stringimpl.h:
+/usr/include/wx-3.0/wx/stringimpl.h:
 
-/usr/local/include/wx-3.0/wx/beforestd.h:
+/usr/include/wx-3.0/wx/beforestd.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/string:
 
@@ -613,49 +578,49 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/basic_string.tcc:
 
-/usr/local/include/wx-3.0/wx/afterstd.h:
+/usr/include/wx-3.0/wx/afterstd.h:
 
-/usr/local/include/wx-3.0/wx/stringops.h:
+/usr/include/wx-3.0/wx/stringops.h:
 
-/usr/local/include/wx-3.0/wx/iosfwrap.h:
+/usr/include/wx-3.0/wx/iosfwrap.h:
 
-/usr/local/include/wx-3.0/wx/crt.h:
+/usr/include/wx-3.0/wx/crt.h:
 
-/usr/local/include/wx-3.0/wx/wxcrt.h:
+/usr/include/wx-3.0/wx/wxcrt.h:
 
-/usr/local/include/wx-3.0/wx/wxcrtvararg.h:
+/usr/include/wx-3.0/wx/wxcrtvararg.h:
 
-/usr/local/include/wx-3.0/wx/msgout.h:
+/usr/include/wx-3.0/wx/msgout.h:
 
-/usr/local/include/wx-3.0/wx/xti.h:
+/usr/include/wx-3.0/wx/xti.h:
 
-/usr/local/include/wx-3.0/wx/rtti.h:
+/usr/include/wx-3.0/wx/rtti.h:
 
-/usr/local/include/wx-3.0/wx/flags.h:
+/usr/include/wx-3.0/wx/flags.h:
 
-/usr/local/include/wx-3.0/wx/xti2.h:
+/usr/include/wx-3.0/wx/xti2.h:
 
-/usr/local/include/wx-3.0/wx/dynarray.h:
+/usr/include/wx-3.0/wx/dynarray.h:
 
-/usr/local/include/wx-3.0/wx/list.h:
+/usr/include/wx-3.0/wx/list.h:
 
-/usr/local/include/wx-3.0/wx/vector.h:
+/usr/include/wx-3.0/wx/vector.h:
 
-/usr/local/include/wx-3.0/wx/scopeguard.h:
+/usr/include/wx-3.0/wx/scopeguard.h:
 
-/usr/local/include/wx-3.0/wx/except.h:
+/usr/include/wx-3.0/wx/except.h:
 
-/usr/local/include/wx-3.0/wx/meta/movable.h:
+/usr/include/wx-3.0/wx/meta/movable.h:
 
-/usr/local/include/wx-3.0/wx/meta/pod.h:
+/usr/include/wx-3.0/wx/meta/pod.h:
 
-/usr/local/include/wx-3.0/wx/meta/if.h:
+/usr/include/wx-3.0/wx/meta/if.h:
 
-/usr/local/include/wx-3.0/wx/hash.h:
+/usr/include/wx-3.0/wx/hash.h:
 
-/usr/local/include/wx-3.0/wx/hashmap.h:
+/usr/include/wx-3.0/wx/hashmap.h:
 
-/usr/local/include/wx-3.0/wx/arrstr.h:
+/usr/include/wx-3.0/wx/arrstr.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/iterator:
 
@@ -703,55 +668,55 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/stream_iterator.h:
 
-/usr/local/include/wx-3.0/wx/intl.h:
+/usr/include/wx-3.0/wx/intl.h:
 
-/usr/local/include/wx-3.0/wx/translation.h:
+/usr/include/wx-3.0/wx/translation.h:
 
-/usr/local/include/wx-3.0/wx/language.h:
+/usr/include/wx-3.0/wx/language.h:
 
-/usr/local/include/wx-3.0/wx/scopedptr.h:
+/usr/include/wx-3.0/wx/scopedptr.h:
 
-/usr/local/include/wx-3.0/wx/checkeddelete.h:
+/usr/include/wx-3.0/wx/checkeddelete.h:
 
-/usr/local/include/wx-3.0/wx/log.h:
+/usr/include/wx-3.0/wx/log.h:
 
-/usr/local/include/wx-3.0/wx/thread.h:
+/usr/include/wx-3.0/wx/thread.h:
 
-/usr/local/include/wx-3.0/wx/event.h:
+/usr/include/wx-3.0/wx/event.h:
 
-/usr/local/include/wx-3.0/wx/clntdata.h:
+/usr/include/wx-3.0/wx/clntdata.h:
 
-/usr/local/include/wx-3.0/wx/tracker.h:
+/usr/include/wx-3.0/wx/tracker.h:
 
-/usr/local/include/wx-3.0/wx/typeinfo.h:
+/usr/include/wx-3.0/wx/typeinfo.h:
 
-/usr/local/include/wx-3.0/wx/any.h:
+/usr/include/wx-3.0/wx/any.h:
 
-/usr/local/include/wx-3.0/wx/datetime.h:
+/usr/include/wx-3.0/wx/datetime.h:
 
-/usr/local/include/wx-3.0/wx/longlong.h:
+/usr/include/wx-3.0/wx/longlong.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/limits:
 
-/usr/local/include/wx-3.0/wx/anystr.h:
+/usr/include/wx-3.0/wx/anystr.h:
 
-/usr/local/include/wx-3.0/wx/variant.h:
+/usr/include/wx-3.0/wx/variant.h:
 
-/usr/local/include/wx-3.0/wx/meta/convertible.h:
+/usr/include/wx-3.0/wx/meta/convertible.h:
 
-/usr/local/include/wx-3.0/wx/meta/removeref.h:
+/usr/include/wx-3.0/wx/meta/removeref.h:
 
-/usr/local/include/wx-3.0/wx/app.h:
+/usr/include/wx-3.0/wx/app.h:
 
-/usr/local/include/wx-3.0/wx/eventfilter.h:
+/usr/include/wx-3.0/wx/eventfilter.h:
 
-/usr/local/include/wx-3.0/wx/build.h:
+/usr/include/wx-3.0/wx/build.h:
 
-/usr/local/include/wx-3.0/wx/cmdargs.h:
+/usr/include/wx-3.0/wx/cmdargs.h:
 
-/usr/local/include/wx-3.0/wx/init.h:
+/usr/include/wx-3.0/wx/init.h:
 
-/usr/local/include/wx-3.0/wx/unix/app.h:
+/usr/include/wx-3.0/wx/unix/app.h:
 
 /usr/include/signal.h:
 
@@ -769,9 +734,9 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
 
 /usr/include/bits/sigthread.h:
 
-/usr/local/include/wx-3.0/wx/utils.h:
+/usr/include/wx-3.0/wx/utils.h:
 
-/usr/local/include/wx-3.0/wx/filefn.h:
+/usr/include/wx-3.0/wx/filefn.h:
 
 /usr/include/sys/stat.h:
 
@@ -799,15 +764,15 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
 
 /usr/include/bits/uio.h:
 
-/usr/local/include/wx-3.0/wx/versioninfo.h:
+/usr/include/wx-3.0/wx/versioninfo.h:
 
-/usr/local/include/wx-3.0/wx/meta/implicitconversion.h:
+/usr/include/wx-3.0/wx/meta/implicitconversion.h:
 
-/usr/local/include/wx-3.0/wx/platinfo.h:
+/usr/include/wx-3.0/wx/platinfo.h:
 
-/usr/local/include/wx-3.0/wx/stream.h:
+/usr/include/wx-3.0/wx/stream.h:
 
-/usr/local/include/wx-3.0/wx/math.h:
+/usr/include/wx-3.0/wx/math.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/math.h:
 
@@ -831,19 +796,19 @@ programs/guix_job_control/cisTEM_job_control-guix_job_control.o: \
 
 /usr/include/bits/mathinline.h:
 
-/usr/local/include/wx-3.0/wx/stopwatch.h:
+/usr/include/wx-3.0/wx/stopwatch.h:
 
-/usr/local/include/wx-3.0/wx/time.h:
+/usr/include/wx-3.0/wx/time.h:
 
-/usr/local/include/wx-3.0/wx/timer.h:
+/usr/include/wx-3.0/wx/timer.h:
 
-/usr/local/include/wx-3.0/wx/module.h:
+/usr/include/wx-3.0/wx/module.h:
 
-/usr/local/include/wx-3.0/wx/cmdline.h:
+/usr/include/wx-3.0/wx/cmdline.h:
 
-/usr/local/include/wx-3.0/wx/socket.h:
+/usr/include/wx-3.0/wx/socket.h:
 
-/usr/local/include/wx-3.0/wx/sckaddr.h:
+/usr/include/wx-3.0/wx/sckaddr.h:
 
 programs/guix_job_control/../../core/core_headers.h:
 
@@ -901,33 +866,33 @@ programs/guix_job_control/../../core/core_headers.h:
 
 /opt/ohpc/pub/compiler/gcc/7.2.0/include/c++/7.2.0/bits/vector.tcc:
 
-/usr/include/fftw3.h:
+/usr/local/include/fftw3.h:
 
 programs/guix_job_control/../../core/sqlite/sqlite3.h:
 
-/usr/local/include/wx-3.0/wx/stdpaths.h:
+/usr/include/wx-3.0/wx/stdpaths.h:
 
-/usr/local/include/wx-3.0/wx/unix/stdpaths.h:
+/usr/include/wx-3.0/wx/unix/stdpaths.h:
 
-/usr/local/include/wx-3.0/wx/filename.h:
+/usr/include/wx-3.0/wx/filename.h:
 
-/usr/local/include/wx-3.0/wx/file.h:
+/usr/include/wx-3.0/wx/file.h:
 
-/usr/local/include/wx-3.0/wx/convauto.h:
+/usr/include/wx-3.0/wx/convauto.h:
 
-/usr/local/include/wx-3.0/wx/dir.h:
+/usr/include/wx-3.0/wx/dir.h:
 
-/usr/local/include/wx-3.0/wx/wfstream.h:
+/usr/include/wx-3.0/wx/wfstream.h:
 
-/usr/local/include/wx-3.0/wx/ffile.h:
+/usr/include/wx-3.0/wx/ffile.h:
 
-/usr/local/include/wx-3.0/wx/tokenzr.h:
+/usr/include/wx-3.0/wx/tokenzr.h:
 
-/usr/local/include/wx-3.0/wx/txtstrm.h:
+/usr/include/wx-3.0/wx/txtstrm.h:
 
-/usr/local/include/wx-3.0/wx/textfile.h:
+/usr/include/wx-3.0/wx/textfile.h:
 
-/usr/local/include/wx-3.0/wx/textbuf.h:
+/usr/include/wx-3.0/wx/textbuf.h:
 
 programs/guix_job_control/../../core/defines.h:
 

@@ -81,7 +81,8 @@ subdir = .
 DIST_COMMON = INSTALL NEWS README AUTHORS ChangeLog \
 	$(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/configure $(am__configure_deps) COPYING TODO \
-	compile config.guess config.sub install-sh missing ltmain.sh
+	compile config.guess config.sub depcomp install-sh missing \
+	ltmain.sh
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
@@ -189,13 +190,13 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/licoshare/hpcadmin/cistem-1.0.0-beta/missing aclocal-1.13
+ACLOCAL = ${SHELL} /home/licoshare/cistem/modifycistem-ey/missing aclocal-1.13
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = ar
-AUTOCONF = ${SHELL} /home/licoshare/hpcadmin/cistem-1.0.0-beta/missing autoconf
-AUTOHEADER = ${SHELL} /home/licoshare/hpcadmin/cistem-1.0.0-beta/missing autoheader
-AUTOMAKE = ${SHELL} /home/licoshare/hpcadmin/cistem-1.0.0-beta/missing automake-1.13
+AUTOCONF = ${SHELL} /home/licoshare/cistem/modifycistem-ey/missing autoconf
+AUTOHEADER = ${SHELL} /home/licoshare/cistem/modifycistem-ey/missing autoheader
+AUTOMAKE = ${SHELL} /home/licoshare/cistem/modifycistem-ey/missing automake-1.13
 AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -227,12 +228,12 @@ INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LD = /usr/bin/ld -m elf_x86_64
 LDFLAGS = 
 LIBOBJS = 
-LIBS =  -ldl -lfftw3f
+LIBS = -ltiff  -ldl -lfftw3f
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = 
 LN_S = ln -s
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /home/licoshare/hpcadmin/cistem-1.0.0-beta/missing makeinfo
+MAKEINFO = ${SHELL} /home/licoshare/cistem/modifycistem-ey/missing makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /usr/bin/mkdir -p
 NM = /usr/bin/nm -B
@@ -255,14 +256,14 @@ SET_MAKE =
 SHELL = /bin/sh
 STRIP = strip
 VERSION = 1.0.0-beta
-WX_CPPFLAGS = -I/usr/local/lib/wx/include/gtk2-unicode-static-3.0 -I/usr/local/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -D__WXGTK__
-WX_CPPFLAGS_BASE = -I/usr/local/lib/wx/include/gtk2-unicode-static-3.0 -I/usr/local/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -DwxUSE_GUI=0
-WX_LIBS = -L/usr/local/lib -pthread   /usr/local/lib/libwx_gtk2u_richtext-3.0.a /usr/local/lib/libwx_gtk2u_aui-3.0.a /usr/local/lib/libwx_gtk2u_xrc-3.0.a /usr/local/lib/libwx_gtk2u_qa-3.0.a /usr/local/lib/libwx_baseu_net-3.0.a /usr/local/lib/libwx_gtk2u_html-3.0.a /usr/local/lib/libwx_gtk2u_adv-3.0.a /usr/local/lib/libwx_gtk2u_core-3.0.a /usr/local/lib/libwx_baseu_xml-3.0.a /usr/local/lib/libwx_baseu-3.0.a -pthread -lgthread-2.0 -lX11 -lXxf86vm -lSM -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfontconfig -lgobject-2.0 -lglib-2.0 -lfreetype -lpng -lexpat -lwxregexu-3.0 -lwxtiff-3.0 -lwxjpeg-3.0 -lz -ldl -lm 
-WX_LIBS_BASE = -lwxtiff-3.0 -L/usr/local/lib -pthread   /usr/local/lib/libwx_baseu_net-3.0.a /usr/local/lib/libwx_baseu-3.0.a -lwxregexu-3.0 -lwxtiff-3.0 -lwxjpeg-3.0 -lz -ldl -lm 
-abs_builddir = /home/licoshare/hpcadmin/cistem-1.0.0-beta
-abs_srcdir = /home/licoshare/hpcadmin/cistem-1.0.0-beta
-abs_top_builddir = /home/licoshare/hpcadmin/cistem-1.0.0-beta
-abs_top_srcdir = /home/licoshare/hpcadmin/cistem-1.0.0-beta
+WX_CPPFLAGS = -I/usr/lib/wx/include/gtk2-unicode-3.0 -I/usr/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXGTK__
+WX_CPPFLAGS_BASE = -I/usr/lib/wx/include/gtk2-unicode-3.0 -I/usr/include/wx-3.0 -D_FILE_OFFSET_BITS=64 -DWXUSINGDLL -D__WXGTK__ -DwxUSE_GUI=0
+WX_LIBS = -pthread   -lwx_gtk2u-3.0 
+WX_LIBS_BASE = -pthread   -lwx_gtk2u-3.0 
+abs_builddir = /home/licoshare/cistem/modifycistem-ey
+abs_srcdir = /home/licoshare/cistem/modifycistem-ey
+abs_top_builddir = /home/licoshare/cistem/modifycistem-ey
+abs_top_srcdir = /home/licoshare/cistem/modifycistem-ey
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
@@ -292,7 +293,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/licoshare/hpcadmin/cistem-1.0.0-beta/install-sh
+install_sh = ${SHELL} /home/licoshare/cistem/modifycistem-ey/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -301,7 +302,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /usr/local/cistem_my_compile
+prefix = /opt/cistem
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin

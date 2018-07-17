@@ -303,8 +303,7 @@ bool MyGuiApp::OnInit()
 		    wxFileName current_dirname = wxFileName::DirName(db_full_path);
 		    if (current_dirname.Exists())
 		    {
-		        wxPrintf("Project existed already. please check!\n");
-		        return false;
+		        wxPrintf("Project dir is existed in:%s \n", db_full_path);
 		    }
 		    else current_dirname.Mkdir();
 		
