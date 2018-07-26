@@ -395,7 +395,7 @@ configure:11145: checking how to hardcode library paths into programs
 configure:11170: result: immediate
 configure:11264: checking for shl_load
 configure:11264: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccthgEFA.o: In function `main':
+/tmp/ccPek069.o: In function `main':
 /home/licoshare/cistem/modifycistem-ey/conftest.c:57: undefined reference to `shl_load'
 collect2: error: ld returned 1 exit status
 configure:11264: $? = 1
@@ -507,7 +507,7 @@ configure: failed program was:
 configure:11302: result: no
 configure:11307: checking for dlopen
 configure:11307: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccNrCNVJ.o: In function `main':
+/tmp/ccntG5Tg.o: In function `main':
 /home/licoshare/cistem/modifycistem-ey/conftest.c:57: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:11307: $? = 1
@@ -799,7 +799,7 @@ configure: failed program was:
 configure:15374: result: no
 configure:15383: checking for library containing TIFFOpen
 configure:15414: g++ -o conftest  -DNDEBUG -funroll-loops -O3 -Wall -pipe -fexpensive-optimizations -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -DNDEBUG -funroll-loops -O3 -Wall -pipe -fexpensive-optimizations -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  conftest.cpp  -ldl -lfftw3f >&5
-/tmp/ccEXwH8w.o: In function `main':
+/tmp/ccrVpv1N.o: In function `main':
 conftest.cpp:(.text.startup+0x5): undefined reference to `TIFFOpen'
 collect2: error: ld returned 1 exit status
 configure:15414: $? = 1

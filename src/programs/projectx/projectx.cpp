@@ -308,7 +308,7 @@ bool MyGuiApp::OnInit()
 		    else current_dirname.Mkdir();
 		
 		    main_frame->Show();
-		    main_frame->current_project.CreateNewProject(db_full_path+"/"+db_name, db_full_path, project_name);
+		    main_frame->current_project.CreateNewProject(db_full_path+db_name, db_full_path, project_name);
 	            main_frame->StartNewProject(true);
 		
 		    wxCommandEvent evt = wxCommandEvent( wxEVT_COMMAND_BUTTON_CLICKED, 12);
