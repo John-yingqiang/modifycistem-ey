@@ -1,4 +1,11 @@
 //#include "../../core/core_headers.h"
+/****************************************
+*      must pass 3 parameters to it     *
+*      1. data(*.mrc) of directory      *
+*      2: path of project               *
+*      3: project name                  *
+*****************************************/
+
 #include "../../core/gui_core_headers.h"
 #include <wx/filefn.h>
 class
@@ -6,8 +13,18 @@ MyGuiApp : public wxApp
 {
 
 	public:
+		//parameters passed by command line
+		wxString data_dir = wxEmptyString;
+		wxString project_dir = wxEmptyString;
+		wxString project_name = wxEmptyString;
+		bool debug = false;
+
 		virtual bool OnInit();
 		virtual int OnExit();
+		bool CreateOrOpenProject(int argc, wxString argv_1, wxString argv_2, wxString argv_3);
+		bool OpenProject(wxString files);
+		bool CreateNewProject();
+		bool ParseArgv(int argc, wxString data, wxString project, wxString name);
 };
 
 
@@ -54,6 +71,85 @@ wxImageList *SettingsBookIconImages;
 wxConfig *cistem_config;
 SETUP_SOCKET_CODES
 
+bool MyGuiApp::ParseArgv(int argc, wxString data, wxString project, wxString name) 
+{
+	wxPrintf("\ndata_dir:%s", data);
+	wxPrintf("\nproject_dir:%s", project);
+	wxPrintf("\nproject_name:%s", name);
+	wxPrintf("\nargc:%d", argc);
+	if (argc > 4) debug = true;
+	if (argc < 4) return false;
+
+	data_dir=data;
+	project_dir=project;
+	project_name=name;
+
+	return true;
+}
+
+bool MyGuiApp::OpenProject(wxString files)
+{
+	if (!files.IsEmpty())
+	{
+	    main_frame->Show();
+	    main_frame->OpenProject(files);
+	    return true;
+	}
+	return false;
+}
+
+bool MyGuiApp::CreateNewProject()
+{
+	wxString db_name = project_name + ".db";
+	wxString store_db = project_dir.RemoveLast();
+
+	if (debug) wxPrintf("\n project + db_name:%s project_dir:%s, projcet name:%s,store_db:%s\n",project_dir + db_name, project_dir, project_name, store_db);
+	if (project_dir.EndsWith("/") == false) project_dir += "/";
+	if (debug) wxPrintf("\ndb full path is:%s", project_dir);
+
+	main_frame->Show();
+	main_frame->current_project.CreateNewProject(project_dir + db_name, store_db, project_name);
+	main_frame->StartNewProject(true);
+	
+	//send data_dir to window
+	wxCommandEvent evt = wxCommandEvent(wxEVT_COMMAND_BUTTON_CLICKED, 12);
+	evt.SetEventObject(this);
+	evt.SetString(data_dir);
+	movie_asset_panel->ImportAssetClick(evt);
+	return true;
+}
+
+bool MyGuiApp::CreateOrOpenProject(int argc, wxString argv_1, wxString argv_2, wxString argv_3)
+{
+    if(ParseArgv(argc, argv_1, argv_2, argv_3))
+    {
+	if (wxDirExists(project_dir)) //make sure the project directory exists
+	{
+		if (project_dir.EndsWith("/") == false) project_dir += "/";
+		wxString db_file = project_dir + "*.db"; //check if it is a new project?
+
+		if (debug) wxPrintf("db file is:%s\n", db_file);
+		
+		wxString files = wxFindFirstFile(db_file);
+		if (!OpenProject(files))
+		{
+			return CreateNewProject();
+		}
+	}
+	else 
+	{
+		if (debug) wxPrintf("\nproject_dir:%s\n", project_dir);
+		if (debug) wxPrintf("project directory does not exist! please check");
+			return false;
+	}
+	return true;
+    }
+    else
+    {
+	    if (debug) wxPrintf("invalid params! must have 3 params\n 1: data of directory;\n 2: path of project;\n 3: project name.\n");
+	    return false;
+    }
+}
 
 bool MyGuiApp::OnInit()
 {
@@ -84,7 +180,6 @@ bool MyGuiApp::OnInit()
 	#include "../../gui/icons/sharpen_map_icon.cpp"
 
 	#include "../../gui/icons/run_profiles_icon.cpp"
-
 
 	wxImage::AddHandler(new wxPNGHandler);
 
@@ -272,61 +367,26 @@ bool MyGuiApp::OnInit()
 	//delete ActionsBookIconImages;
 	//delete AssetsBookIconImages;
 	//delete SettingsBookIconImages;
-	if(argc == 4)
+	/*if (argc > 4) debug = true;
+	if (argc < 4)
 	{
-	    if(wxDirExists(argv[2]))
-	    {
-		wxString project_path = wxString::Format("%s", argv[2]);
-                if (project_path.EndsWith("/") == false) project_path += "/";
-		wxString db_file = project_path + "*.db";
-
-		wxPrintf("db file is:%s\n", db_file);
-		wxString files = wxFindFirstFile(db_file);
-		
-		if(!files.IsEmpty())
-		{
-	            main_frame->Show();	
-	            main_frame->OpenProject(files);
-		    return true;
-		}
-		else
-		{
-		    wxString db_full_path = wxString::Format("%s", argv[2]);
-		    wxString project_name = wxString::Format("%s", argv[3]);
-		    wxPrintf("Will start with a new project in %s, projcet name:%s\n", db_full_path, project_name);
-		
-                    if (db_full_path.EndsWith("/") == false) db_full_path += "/";
-		    wxString db_name = project_name + ".db";
-
-		    wxPrintf("db full path is:%s\n", db_full_path);
-		    
-		    wxFileName current_dirname = wxFileName::DirName(db_full_path);
-		    if (current_dirname.Exists())
-		    {
-		        wxPrintf("Project dir is existed in:%s \n", db_full_path);
-		    }
-		    else current_dirname.Mkdir();
-		
-		    main_frame->Show();
-		    main_frame->current_project.CreateNewProject(db_full_path+db_name, db_full_path, project_name);
-	            main_frame->StartNewProject(true);
-		
-		    wxCommandEvent evt = wxCommandEvent( wxEVT_COMMAND_BUTTON_CLICKED, 12);
-		    evt.SetEventObject(this);
-		    wxString extra = wxString::Format("%s", argv[1]);
-		    evt.SetString(extra);
-		    movie_asset_panel->ImportAssetClick(evt);
-		    return true;
-		}
-	    }else{
-    	    	wxPrintf("invalid params! must have 3 params\n 1: data of directory;\n 2: path of project;\n 3: new project name.\n");
-		return false;
-	    }
-	}
-	else{
-    	    wxPrintf("invalid params! must have 3 params\n 1: data of directory;\n 2: path of project;\n 3: new project name.\n");
+	    if (debug) wxPrintf("invalid params! must have 3 params\n 1: data of directory;\n 2: path of project;\n 3: project name.\n");
 	    return false;
 	}
+	
+	wxPrintf("\nargv:%s", argv[1]);
+	wxPrintf("\nargc:%d", argc);
+	
+	data_dir = argv[1];
+	project_dir = argv[2];
+	project_name = argv[3];
+	if (debug) wxPrintf("\ndata_dir:%s", data_dir);
+	if (debug) wxPrintf("\nproject_dir:%s", project_dir);
+	if (debug) wxPrintf("\nproject_name:%s", project_name);
+	*/
+
+	return CreateOrOpenProject(argc, argv[1], argv[2], argv[3]);
+	
 }
 
 int MyGuiApp::OnExit()

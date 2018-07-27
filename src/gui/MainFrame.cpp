@@ -590,7 +590,11 @@ void MyMainFrame::OpenProject(wxString project_filename)
 
 
 		// has the database file been moved?  If so, attempt to convert it..
-
+		wxPrintf("\ndatabase_file.getpath:%s\ndatabase_file.getfullpath:%s\nproject_directory.getpath:%s\nproject_directory.getfullpath:%s\n",
+			current_project.database.database_file.GetPath(),
+			current_project.database.database_file.GetFullPath(),
+			current_project.project_directory.GetPath(),
+			current_project.project_directory.GetFullPath());
 		if (current_project.database.database_file.GetPath() != current_project.project_directory.GetFullPath())
 		{
 			// database has moved?

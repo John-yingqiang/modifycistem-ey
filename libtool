@@ -275,7 +275,7 @@ hardcode_into_libs=yes
 sys_lib_search_path_spec="/opt/ohpc/pub/compiler/gcc/7.2.0/lib/gcc/x86_64-pc-linux-gnu/7.2.0 /opt/ohpc/pub/compiler/gcc/7.2.0/lib64 /lib64 /usr/lib64 "
 
 # Run-time system search path for libraries.
-sys_lib_dlsearch_path_spec="/lib64 /usr/lib64 /lib /usr/lib /usr/lib64/atlas /usr/lib64/dyninst /usr/lib64/iscsi /usr/lib64/mysql /usr/lib64 /usr/lib64/slurm "
+sys_lib_dlsearch_path_spec="/lib64 /usr/lib64 /lib /usr/lib /usr/lib64/atlas /usr/lib64/dyninst /usr/lib64/iscsi /usr/lib64/mysql /usr/lib64 /usr/lib64/slurm /usr/lib64/tcl8.5 "
 
 # Whether dlopen is supported.
 dlopen_support=yes

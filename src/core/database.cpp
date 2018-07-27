@@ -491,6 +491,7 @@ bool Database::CreateNewDatabase(wxFileName wanted_database_file)
 
 	wanted_database_file.MakeAbsolute();
 
+	wxPrintf("\nwanted_dabese_file in database create:\n%s\n", wanted_database_file.GetFullPath().ToUTF8().data());
 	return_code = sqlite3_open_v2(wanted_database_file.GetFullPath().ToUTF8().data(), &sqlite_database, SQLITE_OPEN_READWRITE | SQLITE_OPEN_CREATE, "unix-dotfile");
 
     if( return_code )

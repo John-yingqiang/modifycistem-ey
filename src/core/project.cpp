@@ -19,6 +19,8 @@ Project::~Project()
 
 bool Project::CreateNewProject(wxFileName wanted_database_file, wxString wanted_project_directory, wxString wanted_project_name)
 {
+	wxPrintf("\nwanted_dabase_file:%s\nwanted_project_directory:%s\nwanted_project_name:%s\n", wanted_database_file.GetFullPath(), wanted_project_directory, wanted_project_name);
+
 	int return_code;
 	wxString directory_string;
 	bool success;
